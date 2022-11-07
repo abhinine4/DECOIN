@@ -28,10 +28,10 @@ class Tweet:
 
 if __name__ == '__main__':
     text = "Apple is going to buy U.K startup"
-    keys = {"cons": "RVYNRvLMepLrtNvqh3mmseXsP",
-            "cons_secret": "2DGvSVFZkhzJDV6rJc5xEzX0nLTsO2ZOpdmxhxv0s5GNerDVga",
-            "acc": "1567974750953119744-oOLwIBeSKiG6AkLMtJ4rh7SG4SsRZW",
-            "acc_secret": "oSAREuIqziAVOI7wTDsRBCAiGD2uQGocdPSMe0bDAiHd1"}
+    keys = {"cons": "",
+            "cons_secret": "",
+            "acc": "",
+            "acc_secret": ""}
 
     twt_obj = Tweet(keys)
     twt = twt_obj.fetch_tweets(text)
