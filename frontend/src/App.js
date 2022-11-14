@@ -13,18 +13,22 @@ import { ToastContainer, toast } from "react-toastify";
 
 function App() {
   return (
+    <div className='bg-indigo-600 w-full h-screen'>
     <Router>
     <Navbar />
+
+  
 
     <ToastContainer theme="light" autoClose={5000} />
 
     <Routes>
-      <Route path="/" exact={true} element={<HomePage />} />
+      <Route path="/" exact={true} element={<LandingPage />} />
       <Route path="/register" element={<Register />} />
       <Route path="/homepage" element={<Home />} />
       
     </Routes>
   </Router>
+  </div>
   );
 
 }
