@@ -1,7 +1,7 @@
 import sqlite3
 import random
 import os
-from factcheck import intent,google_factcheck,reddit_check,twitter_check
+# from factcheck import intent,google_factcheck,reddit_check,twitter_check
 
 class NewsDatabase:
     def __init__(self):

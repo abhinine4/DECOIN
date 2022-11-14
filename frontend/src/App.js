@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from '../src/components/Navbar';
-import HomePage from '../src/components/HomePage';
-import Home from '../src/components/Home';
-import Register from './components/Register';
+import Navbar from '../src/components/Navbar/Navbar';
+import Register from '../src/components/Register/Register';
+import Home from '../src/components/Home/Home'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Web3 from "web3";
 import "react-toastify/dist/ReactToastify.min.css";
