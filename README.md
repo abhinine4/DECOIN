@@ -15,5 +15,6 @@ We also perform an article trend check by doing a social media analysis using pu
 `sqlite`
 
 ## RUN
+- run `createdb.py` to initialize local db
 - run frontent server using `npm start`
 - run backend server using `python app.py`
